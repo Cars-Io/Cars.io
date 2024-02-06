@@ -1,0 +1,678 @@
+body {
+
+}
+.container {
+    height: 1250pc;
+    border: solid 3px #000;
+    margin: auto;
+    width: 60%;
+    background-image: linear-gradient(to right, #e6e6e6,#b3b3b3);
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.conTitulo {
+    height: 10pc;
+    border: solid 2px #000;
+    background-image: linear-gradient(#8c8c8c,#b3b3ff);
+}
+.flex-container {
+    display: flex;
+    background-image: linear-gradient(#009933, #33ff77);
+    border: solid 3px #000;
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+.version {
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 2pc;
+    color: green;
+    background-color: #b3ffb3;
+    border: solid 2px #000;
+    margin: 0;
+}
+.titulo {
+    margin: 5%;
+    font-family: "Times New Roman";
+    color: #003399;
+    font-size: 5pc;
+}
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 4pc;
+    color: green;
+    font-family: "Times New Roman";
+}
+#increaseBtn {
+    margin: 5%;
+    font-size: 3pc;
+    width: 25pc;
+    background: #00ff00;
+    font-family: "Times New Roman";
+    cursor: pointer;
+}
+#increaseBtn:hover {
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn1 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn1:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn2 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn2:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn3 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn3:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn4 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn4:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn5 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn5:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn6 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn6:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn7 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn7:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn8 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn8:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn9 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn9:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn10 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn10:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn11 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn11:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn12 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn12:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn13 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn13:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn14 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn14:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn15 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn15:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn16 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn16:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn17 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn17:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn18 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn18:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn19 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn19:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn20 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn20:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn21 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn21:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn22 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn22:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn23 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn23:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn24 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn24:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn25 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn25:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn26 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn26:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn27 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn27:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn28 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn28:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn29 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn29:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn30 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn30:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn31 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn31:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn32 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn32:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn33 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn33:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn34 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn34:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn35 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn35:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn36 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn36:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn37 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn37:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn38 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn38:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn39 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn39:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn40 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn40:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn41 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn41:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn42 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn42:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn43 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn43:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn44 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn44:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn45 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn45:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn46 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn46:hover{
+    background: #009933;
+    color: #fff;
+}
+.decreaseBtn47 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn47:hover{
+    background: #009933;
+    color: #fff;
+}
+.dinheiro {
+    font-family: "Times New Roman";
+    font-size: 4pc;
+    text-align: center;
+    color: green;
+}
+.contDinheiro {
+    background-color: #b3ffb3;
+    width: 50pc;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: solid 3px #000;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient( #e6ffee,#99ffbb);
+    border: solid 4px #000;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container2 > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(#ffffcc,#ffff99);
+    border: solid 4px #000;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container3 > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(#ffcccc, #ff8080);
+    border: solid 4px #000;
+  }
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container4 > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(#ecc6ec,#df9fdf);
+    border: solid 4px #000;
+  }
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container5 > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient( #0000ff,#000099);
+    border: solid 4px #000;
+  }
+  .grid-container6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 1px;
+}
+.grid-container6 > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(90deg, #ff0000, #ff0040, #ff0080, #ff00bf, #ff00ff, #bf00ff, #8000ff, #4000ff, #0000ff, #00bfff, #00ffff, #00ffbf, #00ff80, #00ff40, #ffff00, #ffbf00, #ff8000, #ff4000);
+    border: solid 4px #000;
+  }
+.nomecarro {
+    font-size: 35px;
+    font-family: "Times New Roman";
+}
+.nomecarro2 {
+    font-size: 35px;
+    font-family: "Times New Roman";
+    color: #ffd700;
+}
+.quantidade {
+    font-size: 2pc;
+    width: 90px;
+    font-family: "Times New Roman";
+}
+.quantDeOuro {
+    color: #ffd700;
+    font-family: "Times New Roman";
+}
+.classe {
+    background-color: #99ffbb;
+    text-align: center;
+    border: solid 2px #000;
+    font-family: "Times New Roman";
+}
+.classe2 {
+    background-color: #ffff99;
+    text-align: center;
+    border: solid 2px #000;
+    font-family: "Times New Roman";
+}
+.classe3 {
+    background-color: #ff8080;
+    text-align: center;
+    border: solid 2px #000;
+    font-family: "Times New Roman";
+}
+.classe4 {
+    background-color: #df9fdf;
+    text-align: center;
+    border: solid 2px #000;
+    font-family: "Times New Roman";
+}
+.classe5 {
+    background-color: #000099;
+    text-align: center;
+    border: solid 2px #000;
+    color: #ffd700;
+    font-family: "Times New Roman";
+}
+.classe6 {
+    background-image: linear-gradient(90deg, #ff0000, #ff0040, #ff0080, #ff00bf, #ff00ff, #bf00ff, #8000ff, #4000ff, #0000ff, #00bfff, #00ffff, #00ffbf, #00ff80, #00ff40, #ffff00, #ffbf00, #ff8000, #ff4000);
+    text-align: center;
+    border: solid 2px #000;
+    font-family: "Times New Roman";
+}

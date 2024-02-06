@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Cars.io</title>
+        <link rel="stylesheet" href="gamestyle.css">
+        <link rel="stylesheet" href="../Font Awesome/css/all.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="conTitulo">
+                <h1 class="titulo">Cars.io</h1>
+            </div>
+            <div class="flex-container">
+                <div>
+                    <p class="version">Versão 1.0 (Beta)</p>
+                </div>
+            </div>
+            <br>
+            <div class="contDinheiro">
+            <p class="dinheiro"><b>Dinheiro R$:</b></p>
+            <label id="countLabel">0</label><br>
+            <button id="increaseBtn">Trabalhar<br><b>R$: 1400 p/click</b></button>
+            </div>
+            <br>
+            <br>
+            <h1 class="classe"><b>Baratos</b></h1>
+            <div class="grid-container">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="fiatuno_mille.jpg">
+                    <p class="nomecarro">Fiat Uno<br><b>R$: 25000</b></p>
+                    <button onclick="decreaseBtn1(); quantBtn1(); audio.play()" class="decreaseBtn1">Comprar</button>
+                    <script type="text/javascript">
+                        const audio = new Audio();
+                        audio.src = "./ka-ching.mp3"
+                    </script>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel1">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 19.5pc" src="volkswagen_fox_8.jpg">
+                    <p class="nomecarro">Volkswagen Fox<br><b>R$: 30000</b></p>
+                    <button onclick="decreaseBtn2(); quantBtn2(); audio.play()" class="decreaseBtn2">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel2">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="cobalt.jpg">
+                    <p class="nomecarro">Chevrolet Cobalt<br><b>R$: 45000</b></p>
+                    <button onclick="decreaseBtn3(); quantBtn3(); audio.play()" class="decreaseBtn3">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel3">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 17pc" src="HB20.jpg">
+                    <p class="nomecarro">Hyundai HB20<br><b>R$: 60200</b></p>
+                    <button onclick="decreaseBtn4(); quantBtn4(); audio.play()" class="decreaseBtn4">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel4">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <br>
+              <h1 class="classe2"><b>Não-Baratos</b></h1>
+              <div class="grid-container2">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="polo.jpg">
+                    <p class="nomecarro">Volkswagen Polo Track<br><b>R$: 81500</b></p>
+                    <button onclick="decreaseBtn5(); quantBtn5(); audio.play()" class="decreaseBtn5">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel5">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="yaris.jpg">
+                    <p class="nomecarro">Toyota Yaris<br><b>R$: 100200</b></p>
+                    <button onclick="decreaseBtn6(); quantBtn6(); audio.play()" class="decreaseBtn6">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel6">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container2">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="corolla.jpg">
+                    <p class="nomecarro">Toyota Corolla GLI<br><b>R$: 148000</b></p>
+                    <button onclick="decreaseBtn7(); quantBtn7(); audio.play()" class="decreaseBtn7">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel7">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bmw gp.jpg">
+                    <p class="nomecarro">BMW 320i GP<br><b>R$: 195600</b></p>
+                    <button onclick="decreaseBtn8(); quantBtn8(); audio.play()" class="decreaseBtn8">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel8">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container2">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="evoque.jpg">
+                    <p class="nomecarro">Range Rover Evoque<br><b>R$: 215000</b></p>
+                    <button onclick="decreaseBtn9(); quantBtn9(); audio.play()" class="decreaseBtn9">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel9">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="taos.jpg">
+                    <p class="nomecarro">Volkswagen Taos Highline<br><b>R$: 250800</b></p>
+                    <button onclick="decreaseBtn10(); quantBtn10(); audio.play()" class="decreaseBtn10">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel10">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container2">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000" src="bronco.jpg">
+                    <p class="nomecarro">Ford Bronco Sport Wildtrak<br><b>R$: 295050</b></p>
+                    <button onclick="decreaseBtn11(); quantBtn11(); audio.play()" class="decreaseBtn11">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel11">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="amarok.jpg">
+                    <p class="nomecarro">VW AMAROK Extreme<br><b>R$: 305800</b></p>
+                    <button onclick="decreaseBtn12(); quantBtn12(); audio.play()" class="decreaseBtn12">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel12">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container2">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bmw x3.png">
+                    <p class="nomecarro">BMW X3 XDRIVE X-Line<br><b>R$: 399090</b></p>
+                    <button onclick="decreaseBtn13(); quantBtn13(); audio.play()" class="decreaseBtn13">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel13">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ram.jpg">
+                    <p class="nomecarro">RAM 3500<br><b>R$: 500000</b></p>
+                    <button onclick="decreaseBtn14(); quantBtn14(); audio.play()" class="decreaseBtn14">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel14">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <br>
+              <h1 class="classe3"><b>Caros</b></h1>
+              <div class="grid-container3">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mustang.png">
+                    <p class="nomecarro">Ford Mustang MACH 1<br><b>R$: 545500</b></p>
+                    <button onclick="decreaseBtn15(); quantBtn15(); audio.play()" class="decreaseBtn15">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel15">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="camaro conversivel.jpg">
+                    <p class="nomecarro">Camaro SS Conversível V8<br><b>R$: 580900</b></p>
+                    <button onclick="decreaseBtn16(); quantBtn16(); audio.play()" class="decreaseBtn16">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel16">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container3">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bmw m2.jpg">
+                    <p class="nomecarro">M2 Coupe 3.0 Bi-Turbo 24V<br><b>R$: 621400</b></p>
+                    <button onclick="decreaseBtn17(); quantBtn17(); audio.play()" class="decreaseBtn17">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel17">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="porsche 718.jpg">
+                    <p class="nomecarro">Porsche 718 Boxster<br><b>R$: 688900</b></p>
+                    <button onclick="decreaseBtn18(); quantBtn18(); audio.play()" class="decreaseBtn18">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel18">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container3">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mercedes gle.jpg">
+                    <p class="nomecarro">Mercedes-Benz Classe GLE<br><b>R$: 791100</b></p>
+                    <button onclick="decreaseBtn19(); quantBtn19(); audio.play()" class="decreaseBtn19">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel19">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="porsche taycan.jpg">
+                    <p class="nomecarro">Porsche Taycan<br><b>R$: 825900</b></p>
+                    <button onclick="decreaseBtn20(); quantBtn20(); audio.play()" class="decreaseBtn20">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel20">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container3">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="porsche panamera.jpg">
+                    <p class="nomecarro">Porsche Panamera<br><b>R$: 850000</b></p>
+                    <button onclick="decreaseBtn21(); quantBtn21(); audio.play()" class="decreaseBtn21">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel21">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mercedes gls.jpg">
+                    <p class="nomecarro">Mercedes-Benz Classe GLS<br><b>R$: 970120</b></p>
+                    <button onclick="decreaseBtn22(); quantBtn22(); audio.play()" class="decreaseBtn22">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel22">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <br>
+              <h1 class="classe4"><b>Mega-Caros</b></h1>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="porsche 911.jpg">
+                    <p class="nomecarro">Porsche 911<br><b>R$: 1040000</b></p>
+                    <button onclick="decreaseBtn23(); quantBtn23(); audio.play()" class="decreaseBtn23">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel23">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="audi rs6.jpg">
+                    <p class="nomecarro">Audi RS6<br><b>R$: 1200000</b></p>
+                    <button onclick="decreaseBtn24(); quantBtn24(); audio.play()" class="decreaseBtn24">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel24">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="audi rs q8.jpg">
+                    <p class="nomecarro">Audi RS Q8<br><b>R$: 1345000</b></p>
+                    <button onclick="decreaseBtn25(); quantBtn25(); audio.play()" class="decreaseBtn25">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel25">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="porsche 911 targa.jpg">
+                    <p class="nomecarro">Porsche 911 Targa<br><b>R$: 1500600</b></p>
+                    <button onclick="decreaseBtn26(); quantBtn26(); audio.play()" class="decreaseBtn26">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel26">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mercedes gclass.jpg">
+                    <p class="nomecarro">Mercedes-Benz Classe G<br><b>R$: 2100560</b></p>
+                    <button onclick="decreaseBtn27(); quantBtn27(); audio.play()" class="decreaseBtn27">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel27">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mclaren gt.jpg">
+                    <p class="nomecarro">Mclaren GT Coupé<br><b>R$: 2710900</b></p>
+                    <button onclick="decreaseBtn28(); quantBtn28(); audio.play()" class="decreaseBtn28">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel28">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="mclaren 600.jpg">
+                    <p class="nomecarro">Mclaren 600<br><b>R$: 3250000</b></p>
+                    <button onclick="decreaseBtn29(); quantBtn29(); audio.play()" class="decreaseBtn29">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel29">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ferrari portofino.jpg">
+                    <p class="nomecarro">Ferrari Portofino<br><b>R$: 3680090</b></p>
+                    <button onclick="decreaseBtn30(); quantBtn30(); audio.play()" class="decreaseBtn30">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel30">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ferrari roma.jpg">
+                    <p class="nomecarro">Ferrari Roma<br><b>R$: 3899050</b></p>
+                    <button onclick="decreaseBtn31(); quantBtn31(); audio.play()" class="decreaseBtn31">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel31">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="lamborghini huracan.jpg">
+                    <p class="nomecarro">Lamborghini Huracán<br><b>R$: 4998090</b></p>
+                    <button onclick="decreaseBtn32(); quantBtn32(); audio.play()" class="decreaseBtn32">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel32">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ferrari 812.jpg">
+                    <p class="nomecarro">Ferrari 812<br><b>R$: 6999000</b></p>
+                    <button onclick="decreaseBtn33(); quantBtn33(); audio.play()" class="decreaseBtn33">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel33">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ferrari stradale.jpg">
+                    <p class="nomecarro">Ferrari SF90 Stradale<br><b>R$: 7290000</b></p>
+                    <button onclick="decreaseBtn34(); quantBtn34(); audio.play()" class="decreaseBtn34">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel34">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container4">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="ferrari sf90.jpg">
+                    <p class="nomecarro">Ferrari SF90 Spider<br><b>R$: 7999990</b></p>
+                    <button onclick="decreaseBtn35(); quantBtn35(); audio.play()" class="decreaseBtn35">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel35">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="cullinam.jpg">
+                    <p class="nomecarro">Rolls-Royce Cullinan<br><b>R$: 8990800</b></p>
+                    <button onclick="decreaseBtn36(); quantBtn36(); audio.play()" class="decreaseBtn36">Comprar</button>
+                    <p class="nomecarro">Quantidade que você tem:</p>
+                    <label id="quantLabel36">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <br>
+              <h1 class="classe5"><b>Hyper-Caros</b></h1>
+              <div class="grid-container5">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="777 hypercar.jpg">
+                    <p class="nomecarro2">777 Hypercar<br><b>R$: 35000760</b></p>
+                    <button onclick="decreaseBtn37(); quantBtn37(); audio.play()" class="decreaseBtn37">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel37" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="excelero.jpg">
+                    <p class="nomecarro2">Mercedes-Maybach Exelero<br><b>R$: 40120800</b></p>
+                    <button onclick="decreaseBtn38(); quantBtn38(); audio.play()" class="decreaseBtn38">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel38" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container5">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bugatti centodieci.jpg">
+                    <p class="nomecarro2">Bugatti Centodieci<br><b>R$: 45135900</b></p>
+                    <button onclick="decreaseBtn39(); quantBtn39(); audio.play()" class="decreaseBtn39">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel39" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bugatti chiron.jpg">
+                    <p class="nomecarro2">Bugatti Chiron<br><b>R$: 55065760</b></p>
+                    <button onclick="decreaseBtn40(); quantBtn40(); audio.play()" class="decreaseBtn40">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel40" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container5">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="sweptail.jpg">
+                    <p class="nomecarro2">Rolls-Royce Sweptail<br><b>R$: 65190300</b></p>
+                    <button onclick="decreaseBtn41(); quantBtn41(); audio.play()" class="decreaseBtn41">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel41" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="chaos.jpg">
+                    <p class="nomecarro2">SP Automotive Chaos<br><b>R$: 72215440</b></p>
+                    <button onclick="decreaseBtn42(); quantBtn42(); audio.play()" class="decreaseBtn42">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel42" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container5">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="pagani.jpg">
+                    <p class="nomecarro2">Pagani Zonda HP Barchetta<br><b>R$: 87548320</b></p>
+                    <button onclick="decreaseBtn43(); quantBtn43(); audio.play()" class="decreaseBtn43">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel43" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="bugatti noire.jpg">
+                    <p class="nomecarro2">Bugatti La Voiture Noire<br><b>R$: 93232590</b></p>
+                    <button onclick="decreaseBtn44(); quantBtn44(); audio.play()" class="decreaseBtn44">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel44" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <div class="grid-container5">
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="boat.jpg">
+                    <p class="nomecarro2">Rolls-Royce Boat Tail<br><b>R$: 139599600</b></p>
+                    <button onclick="decreaseBtn45(); quantBtn45(); audio.play()" class="decreaseBtn45">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel45" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="droptail.png">
+                    <p class="nomecarro2">Rolls-Royce La Rose Noire<br><b>R$: 149571000</b></p>
+                    <button onclick="decreaseBtn46(); quantBtn46(); audio.play()" class="decreaseBtn46">Comprar</button>
+                    <p class="nomecarro2">Quantidade que você tem:</p>
+                    <label id="quantLabel46" class="quantDeOuro">0</label><br>
+                    <br>
+                </div>
+              </div>
+              <br>
+              <h1 class="classe6"><b>Lendário (HyperMega-Caro)</b></h1>
+              <div class="grid-container6">
+                <br>
+                <br>
+                <div>
+                    <br>
+                    <img style="width: 26.5pc; border: solid 3px #000; height: 16pc" src="fiat uno rebaixado.jpg">
+                    <p class="nomecarro"><b>Fiat Uno (Rebaixado com 2 escadas)</b><br><b>R$: 8 quadrilhões</b></p>
+                    <button onclick="decreaseBtn47(); quantBtn47(); audio.play()" class="decreaseBtn47">Comprar</button>
+                    <p class="nomecarro"><b>Quantidade que você tem:</b></p>
+                    <label id="quantLabel47">0</label><br>
+                    <br>
+                </div>
+              </div>
+           <script src="index.js"></script>
+        </div>
+    </body>
+</html>
