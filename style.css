@@ -1,5 +1,5 @@
 .container {
-    height: 55pc;
+    height: 75pc;
     border: solid 3px #000;
     margin: auto;
     width: 60%;
@@ -41,7 +41,7 @@
     text-align: center;
 }
 .updates {
-    height: 10pc;
+    height: 30pc;
     border: solid 3px #000;
     margin: auto;
     width: 90%;
