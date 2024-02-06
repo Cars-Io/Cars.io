@@ -2,7 +2,7 @@ body {
 
 }
 .container {
-    height: 1280pc;
+    height: 1250pc;
     border: solid 3px #000;
     margin: auto;
     width: 60%;
@@ -529,6 +529,16 @@ body {
     background: #009933;
     color: #fff;
 }
+.decreaseBtn48 {
+    margin: 5%;
+    font-size: 4pc;
+    background: #99ff99;
+    cursor: pointer;
+}
+.decreaseBtn48:hover{
+    background: #009933;
+    color: #fff;
+}
 .dinheiro {
     font-family: "Times New Roman";
     font-size: 4pc;
@@ -610,7 +620,7 @@ body {
   }
   .grid-container6 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 10px;
     padding: 1px;
 }
@@ -675,4 +685,10 @@ body {
     text-align: center;
     border: solid 2px #000;
     font-family: "Times New Roman";
+}
+.ideia {
+    color: #ffd700;
+    font-family: "Times New Roman";
+    background-color: #000099;
+    border: solid 2px #000;
 }
