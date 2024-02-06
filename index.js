@@ -756,3 +756,19 @@ function quantBtn47(){
     console.log(value);
     document.getElementById('quantLabel47').innerHTML = value;
 }
+
+
+function decreaseBtn48(){
+    count-=6500000000000000;
+    document.getElementById("countLabel").innerHTML = count;
+}
+
+function quantBtn48(){
+    var element = document.getElementById('quantLabel48')
+    var value = element.innerHTML;
+
+    ++value;
+
+    console.log(value);
+    document.getElementById('quantLabel48').innerHTML = value;
+}
